@@ -69,10 +69,10 @@ const Navbar = () => {
 
                     {/* Pending/Approved/Processed Request Text */}
                     <Box sx={{ display: "flex", alignItems: "center", color: "black" }}>
-                        <Home />
-                        <Typography variant="body2" sx={{ marginLeft: 1, color: "black", fontWeight: 'bold' }}>Pending Request</Typography>
-                        <Typography variant="body2" sx={{ marginLeft: 2, color: "black", fontWeight: 'bold' }}>Approved Request</Typography>
-                        <Typography variant="body2" sx={{ marginLeft: 2, color: "black", fontWeight: 'bold' }}>Processed Request</Typography>
+                    
+                        <Typography variant="body2" sx={{ marginLeft: 1, color: "black", fontWeight: 'bold' }}>Pending </Typography>
+                        <Typography variant="body2" sx={{ marginLeft: 2, color: "black", fontWeight: 'bold' }}>Approved </Typography>
+                        <Typography variant="body2" sx={{ marginLeft: 2, color: "black", fontWeight: 'bold' }}>Processed </Typography>
                     </Box>
 
                     {/* Profile Icon */}
